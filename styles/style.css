@@ -1,6 +1,10 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
 * {
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
+    
 }
 .header{
     
@@ -116,4 +120,41 @@ main{
     justify-content: space-around;
     text-align: center;
     color: #757575;
+}
+
+
+/* What i do Style */
+
+.what-i-do{
+    padding: 130px 150px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #505050; 
+}
+.what-i-do p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Skill Section */
+.skill-section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.skill img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.skill{
+    padding: 30px;
+    margin-left: 30px;
+    background-color: white;
+}
+.skill h4{
+    margin-bottom: 20px;
 }
