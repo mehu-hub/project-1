@@ -1,19 +1,24 @@
-body{
+body {
     background-color: rgb(247, 247, 247);
 }
+
 * {
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
-.header{
-    
-    background-color:  #FFF8F3;
+
+.header {
+
+    background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.header-img{
+
+.header-img {
+    margin-top: 80px;
+    height: 600px;
     width: 35%;
     padding-left: 300px;
 }
@@ -27,7 +32,7 @@ body{
     border-style: none;
     padding: 18px 36px;
     font-weight: bold;
-    cursor: pointer ;
+    cursor: pointer;
 }
 
 nav {
@@ -60,24 +65,28 @@ nav li {
 
 /* Banner Style */
 
-.banner{
+.banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     font-weight: 600;
     font-size: 45px;
 }
-.head-title{
+
+.head-title {
     font-size: 25px;
     color: rgb(160, 159, 159);
     margin-bottom: 30px;
 }
-.btn-contact{
+
+.btn-contact {
     margin-left: 10px;
     background-color: #FFF8F3;
     font-size: 15px;
@@ -87,35 +96,40 @@ nav li {
     color: orange;
     padding: 18px 36px;
     font-weight: bold;
-    cursor: pointer ;
+    cursor: pointer;
 }
 
 /* Main Section */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
 /* About Section Style */
-.about{
+.about {
     margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
-.section-title{
+
+.section-title {
     color: #505050;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
 }
-.info-section{
+
+.info-section {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -125,36 +139,144 @@ main{
 
 /* What i do Style */
 
-.what-i-do{
+.what-i-do {
     padding: 130px 150px;
     margin-top: 50px;
     text-align: center;
-    font-size: 22px;
-    color: #505050; 
+    font-size: 35px;
+    color: #505050;
 }
-.what-i-do p{
+
+.what-i-do p {
     margin-top: 30px;
     font-size: 20px;
     text-align: center;
 }
 
 
+
 /* Skill Section */
-.skill-section{
+.skill-section {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.skill img{
+
+.skill img {
     width: 45px;
     height: 45px;
     margin-bottom: 20px;
 }
-.skill{
+
+.skill {
     padding: 30px;
     margin-left: 30px;
     background-color: white;
 }
-.skill h4{
+
+.skill h4 {
     margin-bottom: 20px;
+}
+
+/* Resume Section */
+
+.resume-container {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: #505050;
+}
+
+.resume-con-title {
+    font-size: 35px;
+}
+
+.resume-container h3 {
+    text-align: center;
+}
+
+.education h5 {
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.sub-title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.university {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.qualification-main {
+    margin-top: 100px;
+    display: flex;
+    gap: 80px;
+}
+
+.experience {
+    margin-left: 75px;
+}
+
+.description {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.resume-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+/* Footer Section */
+.footer {
+    background: #FFF8F3;
+}
+
+.contact-area {
+    padding: 130px 230px;
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.connect-text {
+    width: 50%;
+}
+
+.connect-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.connect-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.connect-img img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.message-area {
+    text-align: left;
+    width: 50%;
+}
+
+.message-area h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
