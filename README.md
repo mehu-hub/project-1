@@ -1,4 +1,3 @@
-NoobDev Portfolio
-Live Site - https://mehu-hub.github.io/project-1/
-This website view only for PC/Laptop Device
-Website is not responsive
+Simple Developer portfolio Landing Page <br>
+Only For PC View | Not Responsive <br>
+When I was complete learn HTML and CSS i create this landing page
